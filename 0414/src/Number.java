@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Number {
 
 	public static void main(String[] args) {
-		System.out.println("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö): ");
-		Scanner sc  = new Scanner(System.in);
+		System.out.println("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€): ");
+		Scanner sc  = new Scanner(System.in); // ìŠ¤ìºë„ˆìƒì„±
 		int num = sc.nextInt();
 		int diff=0;
 		int[]arr = new int[10];
@@ -17,11 +17,11 @@ public class Number {
 		
 		for(int a=0; a<10; a++){
 			if(arr[a] == num){
-				System.out.println("´çÃ·! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ÀÖ½À´Ï´Ù.");
+				System.out.println("ë‹¹ì²¨! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ìˆìŠµë‹ˆë‹¤.");
 				diff=1;
 			}	
 		}
 		if(diff==0)
-			System.out.println("²Î!");
+			System.out.println("ê½!");
 	}
 }
